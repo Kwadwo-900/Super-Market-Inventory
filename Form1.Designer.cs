@@ -165,9 +165,9 @@
             this.label4.ForeColor = System.Drawing.Color.Olive;
             this.label4.Location = new System.Drawing.Point(419, 518);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(113, 16);
+            this.label4.Size = new System.Drawing.Size(120, 16);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Forgot password";
+            this.label4.Text = "Forgot password?";
             // 
             // checkBox1
             // 
