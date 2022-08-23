@@ -31,12 +31,20 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+=======
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+=======
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -45,9 +53,15 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Olive;
+<<<<<<< HEAD
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.label2);
+=======
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.button4);
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -69,17 +83,42 @@
             // 
             // button3
             // 
+<<<<<<< HEAD
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(12, 273);
+=======
+            this.button3.Location = new System.Drawing.Point(12, 272);
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(178, 32);
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+=======
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(12, 327);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(178, 32);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(12, 381);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(178, 32);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
             // button2
             // 
             this.button2.FlatAppearance.BorderSize = 0;
@@ -133,6 +172,7 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Admin Panel";
             // 
+<<<<<<< HEAD
             // button4
             // 
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.White;
@@ -160,6 +200,8 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+=======
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -190,9 +232,16 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button2;
+<<<<<<< HEAD
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
+=======
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label2;
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
     }
 }

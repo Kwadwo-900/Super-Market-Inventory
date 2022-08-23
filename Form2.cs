@@ -38,10 +38,13 @@ namespace Super_Market_Inventory
         {
 
         }
+<<<<<<< HEAD
 
         private void button5_Click(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
     }
 }
