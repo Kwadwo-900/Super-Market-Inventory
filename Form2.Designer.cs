@@ -42,17 +42,33 @@
 
             this.panel2 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
 
+=======
+<<<<<<< HEAD
+=======
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
+>>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
 
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
 
+=======
+<<<<<<< HEAD
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+=======
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
+>>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -62,6 +78,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Olive;
+<<<<<<< HEAD
 
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
@@ -75,6 +92,17 @@
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
 
+=======
+<<<<<<< HEAD
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.label2);
+=======
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.button4);
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
+>>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -124,20 +152,36 @@
             // 
             // button3
             // 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(12, 273);
+<<<<<<< HEAD
 
             this.button3.Location = new System.Drawing.Point(12, 272);
+=======
+=======
+            this.button3.Location = new System.Drawing.Point(12, 272);
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
+>>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(178, 32);
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
            
+=======
+            // 
+<<<<<<< HEAD
+=======
+>>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(12, 327);
@@ -155,7 +199,14 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
            
+=======
+            // 
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
+            // button2
+            // 
+>>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -192,7 +243,52 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+<<<<<<< HEAD
             // panel2
+=======
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(28, 70);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(128, 23);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Admin Panel";
+            // 
+<<<<<<< HEAD
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(12, 325);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(178, 32);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(12, 375);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(178, 32);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+=======
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
+            // Form2
+>>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
             // 
             this.panel2.BackColor = System.Drawing.Color.Olive;
             this.panel2.Controls.Add(this.label1);
@@ -264,19 +360,31 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button2;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
+<<<<<<< HEAD
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
 
+=======
+=======
+>>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label2;
+<<<<<<< HEAD
 
+=======
+>>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
+>>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
     }
 }
