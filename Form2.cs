@@ -38,21 +38,16 @@ namespace Super_Market_Inventory
         {
 
         }
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
->>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
 
         private void button5_Click(object sender, EventArgs e)
         {
 
         }
-<<<<<<< HEAD
 
-=======
-=======
->>>>>>> bbd0a17e85ba7ed69f21bf4dda2e3e256beaa09a
->>>>>>> c80842a67d429f52a0f0204740812d453b9dcf0f
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
