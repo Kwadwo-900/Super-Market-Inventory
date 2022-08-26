@@ -18,8 +18,8 @@ namespace Super_Market_Inventory
             InitializeComponent();
         }
 
-        //static string myconn = System.ConfigurationManager.ConnectionString['connstring']ConnectionString;
-        public static string ut;
+        public static string connString = "Data Source=SILASPC\\SQLEXPRESS;Initial Catalog=mktdb;Integrated Security=True";
+        public static string data;
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -38,17 +38,20 @@ namespace Super_Market_Inventory
             }
             try
             {
-                SqlConnection conn = new SqlConnection("data source=SILASPC\\SQLEXPRESS;initial catalog=mktd;integrated security = True");
+                
+                SqlConnection conn = new SqlConnection(connString);
                 conn.Open();
-                SqlCommand cmd = new SqlCommand("SELECT role FROM usertable WHERE uname LIKE '"+uname+"' AND password LIKE '"+passw+"'; ", conn);
+                SqlCommand cmd = new SqlCommand("SELECT role FROM user_table WHERE uname LIKE '"+uname.Text+"' COLLATE SQL_Latin1_General_CP1_CI_AS AND password LIKE '"+passw.Text+ "' COLLATE SQL_Latin1_General_CP1_CI_AS", conn);
                 SqlDataAdapter sda = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
+                 
 
-                if(dt.Rows.Count == 1)
+                if (dt.Rows.Count == 1)
                 {
-                    ut = dt.Rows[0][0].ToString();
-                    if(ut == "ADMIN")
+                    data = dt.Rows[0][0].ToString();
+                    
+                    if(data == "ADMIN")
                     {
                         Form2 form2 = new Form2();
                         form2.Show();
@@ -56,14 +59,13 @@ namespace Super_Market_Inventory
                     }
                     else
                     {
-                        /*
-                         * Show attendant page over here
-                         */
+                        
                     }
                 }
                 else
                 {
                     MessageBox.Show("Incorrect credentials");
+                    MessageBox.Show(data);
                 }
 
             }
