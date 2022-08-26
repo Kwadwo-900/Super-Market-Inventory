@@ -21,5 +21,12 @@ namespace Super_Market_Inventory
         {
             Application.ExitThread();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
+        }
     }
 }

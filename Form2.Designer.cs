@@ -51,7 +51,7 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Location = new System.Drawing.Point(0, 63);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(156, 492);
+            this.panel1.Size = new System.Drawing.Size(159, 492);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -126,9 +126,9 @@
             this.button4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = global::Super_Market_Inventory.Properties.Resources.icons8_users_settings_64;
-            this.button4.Location = new System.Drawing.Point(12, 262);
+            this.button4.Location = new System.Drawing.Point(0, 262);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(134, 94);
+            this.button4.Size = new System.Drawing.Size(156, 94);
             this.button4.TabIndex = 7;
             this.button4.Text = "Manage Users\r\n";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -142,9 +142,9 @@
             this.button3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::Super_Market_Inventory.Properties.Resources.icons8_business_report_50;
-            this.button3.Location = new System.Drawing.Point(12, 179);
+            this.button3.Location = new System.Drawing.Point(0, 179);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(134, 77);
+            this.button3.Size = new System.Drawing.Size(156, 77);
             this.button3.TabIndex = 6;
             this.button3.Text = "Generate Report";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -159,9 +159,9 @@
             this.button2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::Super_Market_Inventory.Properties.Resources.icons8_product_50;
-            this.button2.Location = new System.Drawing.Point(12, 81);
+            this.button2.Location = new System.Drawing.Point(0, 81);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 92);
+            this.button2.Size = new System.Drawing.Size(156, 92);
             this.button2.TabIndex = 5;
             this.button2.Text = "Manage Products";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
