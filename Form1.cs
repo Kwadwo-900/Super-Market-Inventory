@@ -57,15 +57,16 @@ namespace Super_Market_Inventory
                         form2.Show();
                         this.Hide();
                     }
-                    else
+                    else if(data == "ATTENDANT")
                     {
-                        
+                        Form3 form3 = new Form3();
+                        form3.Show();
+                        this.Hide();
                     }
                 }
                 else
                 {
                     MessageBox.Show("Incorrect credentials");
-                    MessageBox.Show(data);
                 }
 
             }

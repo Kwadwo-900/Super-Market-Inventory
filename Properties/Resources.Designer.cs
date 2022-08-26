@@ -93,6 +93,16 @@ namespace Super_Market_Inventory.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_business_report_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-business-report-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_logout_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-logout-30", resourceCulture);
@@ -106,6 +116,26 @@ namespace Super_Market_Inventory.Properties {
         internal static System.Drawing.Bitmap icons8_power_off_button_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-power-off-button-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_product_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-product-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_users_settings_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-users-settings-64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

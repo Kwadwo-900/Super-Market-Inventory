@@ -10,31 +10,16 @@ using System.Windows.Forms;
 
 namespace Super_Market_Inventory
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
-        public Form2()
+        public Form3()
         {
             InitializeComponent();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Form1 form = new Form1();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Application.ExitThread();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
