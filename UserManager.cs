@@ -16,5 +16,10 @@ namespace Super_Market_Inventory
         {
             InitializeComponent();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
