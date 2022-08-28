@@ -41,7 +41,7 @@ namespace Super_Market_Inventory
                 
                 SqlConnection conn = new SqlConnection(connString);
                 conn.Open();
-                SqlCommand cmd = new SqlCommand("SELECT role FROM user_table WHERE role LIKE '"+srole.Text+"' COLLATE SQL_Latin1_General_CP1_CI_AS", conn);
+                SqlCommand cmd = new SqlCommand("SELECT role FROM user_table WHERE uname LIKE '"+uname.Text+"' COLLATE SQL_Latin1_General_CP1_CI_AS AND password LIKE '"+passw.Text+ "' COLLATE SQL_Latin1_General_CP1_CI_AS AND role LIKE '" + srole.Text + "' COLLATE SQL_Latin1_General_CP1_CI_AS", conn);
                 SqlDataAdapter sda = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
