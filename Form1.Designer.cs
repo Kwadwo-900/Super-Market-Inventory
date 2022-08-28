@@ -41,6 +41,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -96,7 +98,7 @@
             // uname
             // 
             this.uname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uname.Location = new System.Drawing.Point(327, 342);
+            this.uname.Location = new System.Drawing.Point(328, 307);
             this.uname.Margin = new System.Windows.Forms.Padding(4);
             this.uname.Name = "uname";
             this.uname.Size = new System.Drawing.Size(279, 22);
@@ -105,7 +107,7 @@
             // passw
             // 
             this.passw.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passw.Location = new System.Drawing.Point(327, 404);
+            this.passw.Location = new System.Drawing.Point(328, 369);
             this.passw.Margin = new System.Windows.Forms.Padding(4);
             this.passw.Name = "passw";
             this.passw.Size = new System.Drawing.Size(279, 22);
@@ -132,7 +134,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Olive;
-            this.label2.Location = new System.Drawing.Point(324, 322);
+            this.label2.Location = new System.Drawing.Point(325, 287);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 16);
             this.label2.TabIndex = 5;
@@ -142,7 +144,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.Olive;
-            this.label3.Location = new System.Drawing.Point(324, 384);
+            this.label3.Location = new System.Drawing.Point(325, 349);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 16);
             this.label3.TabIndex = 6;
@@ -151,7 +153,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Super_Market_Inventory.Properties.Resources.download__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(375, 159);
+            this.pictureBox2.Location = new System.Drawing.Point(376, 124);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(188, 139);
@@ -174,7 +176,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.ForeColor = System.Drawing.Color.Olive;
-            this.checkBox1.Location = new System.Drawing.Point(520, 433);
+            this.checkBox1.Location = new System.Drawing.Point(521, 398);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(111, 20);
             this.checkBox1.TabIndex = 9;
@@ -187,11 +189,33 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Olive;
-            this.label5.Location = new System.Drawing.Point(439, 112);
+            this.label5.Location = new System.Drawing.Point(440, 77);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 16);
             this.label5.TabIndex = 10;
             this.label5.Text = "Login First";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.Color.White;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "ADMIN",
+            "ATTENDANT"});
+            this.comboBox1.Location = new System.Drawing.Point(328, 419);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 24);
+            this.comboBox1.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.Olive;
+            this.label6.Location = new System.Drawing.Point(328, 400);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 16);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Select Role";
             // 
             // Form1
             // 
@@ -199,6 +223,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(933, 554);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label4);
@@ -239,6 +265,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label6;
     }
 }
 

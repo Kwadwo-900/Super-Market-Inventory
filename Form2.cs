@@ -60,5 +60,10 @@ namespace Super_Market_Inventory
         {
             loadForm(new UserManager());
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
