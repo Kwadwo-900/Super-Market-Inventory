@@ -142,6 +142,21 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Diary",
+            "Snacks",
+            "Bakery",
+            "Beverages",
+            "Stationary",
+            "Produce",
+            "Canning",
+            "Meat",
+            "Cereal",
+            "Cleaners",
+            "Cosmetic",
+            "Frozen",
+            "Personal Care",
+            "Other"});
             this.comboBox1.Location = new System.Drawing.Point(6, 246);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(162, 24);
